@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+</head>
+<body>
+<section id="webBuilder-navbar">
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation">
+        <div class="container" style="padding: 10px;">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><img style="width: 50px;height: 55px;" src="img/logo2.png" class="img-responsive logo-mrgn" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="">
+                        <a class="page-scroll btnLogin" href="index.html" style="color: #fff !important;">Login</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll btnLogin" href="reseller.html" style="margin-left: 10px; color: #fff !important;">Reseller</a>
+                    </li>
+                    
+                </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                    <li class="">
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lstemp0006-about">Themes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lstemp0006-services">Plugins</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="feature.html">Features</a>
+                    </li>
+                 </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</section>
+<!-- #lstemp0114-header-start -->      
+<section id="lstemp0114-header">
+
+  <div class="container">
+    <div class="white-box">
+      <div class="blue-box">
+        <div class="header-text">
+      <h1>Earn  Like  a <strong>BOSS</strong> as  a  Limestem  Reseller</h1>
+
+      <!-- model-btn-start -->
+      <div class="row">
+    <center> <a class="btn btn-primary" href="#" data-toggle="modal" data-target=".login-register-form">
+      Login - Registration Form</a>
+    <center>
+
+                       
+    <div class="modal fade login-register-form" role="dialog">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                  <span class="glyphicon glyphicon-remove"></span>
+              </button>
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#login-form"> Login <span class="glyphicon glyphicon-user"></span></a></li>
+                <li><a data-toggle="tab" href="#registration-form"> Register <span class="glyphicon glyphicon-pencil"></span></a></li>
+              </ul>
+            </div>
+
+            <div class="modal-body">
+              <div class="tab-content">
+                <div id="login-form" class="tab-pane fade in active">
+                  <form action="/" class="p">
+                    <div class="form-group">
+                      
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                    </div>
+                     
+                    <div class="checkbox">
+                    <label><input type="checkbox" value="">I Agree To term  And Condition</label>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="checkbox">
+                          <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                      </div>
+
+                    <div class="col-md-6">
+                      <a href="#" style="color: #fff;">Forgot Password?</a>
+                    </div>
+                  </div>
+                    <button type="submit" class="btn btn-success"><a style="color: #fff; text-decoration: none;" href="http://limestem.com/">Login</a></button>
+                        
+                </form>
+              </div>
+
+              <div id="registration-form" class="tab-pane fade" >
+                <form action="/" class="a">
+                  <h4 style="color: #fff;">Register As A Partner</h4>
+                  <br/>
+                  <div class="form-group">
+                     <input type="text" class="form-control" id="name" placeholder="Your  name" name="name">
+                  </div>
+
+                  <div class="form-group">
+                      <input type="email" class="form-control" id="newemail" placeholder=" email Address" name="newemail">
+                  </div>
+
+                  <div class="form-group">
+                      <input type="Number" class="form-control" id="newemail" placeholder="Mobile Number" name="newemail">
+                  </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="newemail" placeholder="Web URL" name="newemail">
+                    </div>
+
+                    <div class="form-group">
+                      <select class="form-control" id="Business Categary">
+                        <option>It Business </option>
+                        <option>Marketing</option>
+                        <option>General Partnership</option>
+                        <option>Limited Partnership</option>
+                      </select>
+                     
+                    </div>
+                  <!--  <form> -->
+                  <div class="form-group">
+                    <div class="checkbox">
+                    <label><input type="checkbox" value="">I Agree To term Of Use And Privacy Policy</label>
+                    </div>
+
+                  </div>
+                  <!-- </form> -->
+                    <button type="submit" class="btn btn-success"><a style="color: #fff; text-decoration: none;" href="http://limestem.com/">Register As A Partner</a></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
+        <p>Earn up to 80% (yes it’s true and real) or more on every sale through the Limestem Partner  program. If there's an  easier way to make this kind of money, it can't be legal.</p>
+    </div>
+
+
+    <div class="header-work">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="header-img-box">
+            <div class="header-img">
+              <img src="image/13.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="header-img-box">
+            <div class="header-img">
+              <img src="image/12.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="header-img-box">
+            <div class="header-img">
+              <img src="image/11.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+      </div>
+    
+
+  </div>
+  </div>
+</section>
+
+<!-- #lstemp0114-header-end --> 
+
+<!-- lstem-0014-limestem-start -->
+<section id="lstem-0114-limestem">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="limestem-heading">
+          <h2>It Pays to Work with Limestem</h2>
+          <p>Limestem&#39;s partner program is designed to build world-class advance content <br>
+            management system. It enables our partners to serve their merchants better, offer <br>
+            them best in class management applications and customer service.
+          </p>
+          <p>Earn up to <strong>80%</strong> (yes it’s true and real) or more on every sale through the Limestem <br>
+            Partner program. If there&#39;s an easier way to make this kind of money, it can&#39;t be legal.
+          </p>
+        </div>
+        <div class="limestem-heading-img">
+          <img src="image/marketing-1.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- lstem-0014-limestem-end -->
+
+
+<!-- lstem-0014-servics-one-start -->
+<section id="lstem-0114-servics-one">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <div class="serviceBox">
+                    <div class="service-icon">
+                        <!-- <i class="fa fa-globe"></i> -->
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="title">Leading Advance CMS for <br> all your business need</h3>
+                    <p class="description">
+                        Providing advance contact management system for all your business need to grow your business/
+                        profession, built by a team with over 15 years of experince, Limestem Applications are designed to be fast and easy to use.
+                    </p>
+                </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="serviceBox">
+                    <div class="service-icon">
+                        <!-- <i class="fa fa-globe"></i> -->
+                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="title">Top Level Up-to the <br> mark Features</h3>
+                    <p class="description">
+                        Get a dedicated landing page in premium
+            quality and easily convert your traffic into
+            sales thanks to some of the highest
+            technologies rates in this industry.
+                    </p>
+                </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="serviceBox">
+                    <div class="service-icon">
+                        <!-- <i class="fa fa-globe"></i> -->
+                        <i class="fa fa-area-chart" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="title">Marketing materials <br> provided</h3>
+                    <p class="description">
+                        Our design team can provide Banners for
+            Display or Facebook, newsletter templates,
+            posters for live events and more.
+                    </p>
+                </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- lstem-0014-servics-one-end -->
+
+
+<!-- lstem-0014-servics-tow-start -->
+<section id="lstem-0114-servics-tow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <div class="service-work">
+          <div class="serviceBox">
+                      <div class="service-icon">
+                          <!-- <i class="fa fa-globe"></i> -->
+                          <i class="fa fa-user" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="title">Guaranteed <br> Commission</h3>
+                      <p class="description">
+                          Have clients with questions or requests?
+              Just reach out and we’ll answer and help
+              however we can in order to accelerate your
+              earnings.
+                      </p>
+                  </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="service-work">
+          <div class="serviceBox">
+                      <div class="service-icon">
+                          <!-- <i class="fa fa-globe"></i> -->
+                          <i class="fa fa-share-alt-square" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="title">Dedicated Partner <br> Support</h3>
+                      <p class="description">
+              Whether you choose to be an Affiliate or a
+              Premium Partner, we guarantee your
+              commission and offer full refund support.
+                      </p>
+                  </div>
+        </div>
+      </div>
+
+      
+
+      <div class="col-md-4 col-sm-4">
+        <div class="service-work">
+          <div class="serviceBox">
+                      <div class="service-icon">
+                          <!-- <i class="fa fa-globe"></i> -->
+                          <i class="fa fa-television" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="title">Sell CMS/Plugins <br> at any price</h3>
+                      <p class="description">
+                          or buy the licenses from us at a lower cost
+              and can sell with whatever markup you
+              prefer.
+                      </p>
+                  </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+<!-- lstem-0014-servics-tow-end -->
+
+
+<!-- lstem-0014-partner-start -->
+<section id="lstem-0114-partner">
+  <div class="container">
+    <div class="partner-heading">
+      <h2>Who can be a Partner? Practically Anyone!</h2>
+    </div>
+    <div class="partner-service">
+      <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon">
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Web Developer And Designer</h3>
+                            <p> Offer an end-to-end solution to your clients including a income on regular basic.</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon blue">
+                            <i class="fa fa-sliders" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Digital Marketing Agencies</h3>
+                            <p> Tie-up with us, refer........ to your clients and start erning additional income.</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon red">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Bloggers</h3>
+                            <p> Is your btarget audience interested in e_commerce? and
+                get great returns on your referrals.</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+              </div><br/><br/>
+              <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon purple">
+                            
+<i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Students & Freelacers</h3>
+                            <p> Earn while you learn Referyour friends, batchmates, and 
+                familly members who want to sell online, Spread the word and start referring now.</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon darkCyan">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>E-commerce Consultants</h3>
+                            <p> Refer the best online payment
+                solutoion to your network and make money now</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="serviceBox">
+                        <div class="service-icon strongcyan">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Individuals</h3>
+                            <p> Do you anyone in your network  who is selling online or wants
+                to sell online? Refer such sellers to us and earn money on regular basis.</p>
+                            <!-- <a href="#" class="read">Read more
+                                <i class="fa fa-angle-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+  </div>
+</section>
+<!-- lstem-0014-partner-end -->
+
+
+
+<!-- lstem-0014-about-box-start -->
+<section id="lstem-0114-about-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="about-heading">
+          <h2>What our affiliates say about us</h2>
+        </div>
+        <div class="about-work">
+          <div class="about-img">
+            <img src="image/comment.jpg" class="img-responsive">
+          </div>
+          <div class="about-img-text">
+            <h3>It&#39;s lightweight, feature rich, and getting better every day! Top-notch service! The staff is great to work with, very
+            warm and friendly. When challenges and issues arise, Limestem team are able to resolve them through good communication.</h3>
+            <h2>Manish Tiwari –<span> Global Tech Solution, New Delhi.</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</section>
+<!-- lstem-0014-about-box-end -->
+
+
+
+
+
+
+
+
+
+    <!-- <section id="lstemp0114-graph">
+    	 <div id="container">
+   <script>
+     
+      Highcharts.chart('container', {
+
+    title: {
+        text: 'Solar Employment Growth by Sector, 2010-2016'
+    },
+
+   
+
+    yAxis: {
+        title: {
+            text: 'Number of Employees'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2010
+        }
+    },
+
+    series: [{
+        name: 'Installation',
+        data: [43934, 52503, 57177, 69658]
+    } ],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
+});
+   </script>
+</div>
+    </section> -->
+
+    <section id="webBuilder-footer">
+      <div class="container-fluid footer-1">
+        <div class="row">
+          <div class=" col-lg-5 col-md-5" style="border-right: 1px solid; text-align: center;">
+            <p><i class="fa fa-home" aria-hidden="true"></i> SF-46, Omaxe celebration mall, Sector-48 Gurgaon</p>
+          </div>
+          <div class="col-lg-3 col-md-3" style="border-right: 1px solid; text-align: center;">
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> info@limestem.com</p>
+          </div>
+          <div class="col-lg-4 col-md-4" style="text-align: center;">
+            <p><i class="fa fa-phone" aria-hidden="true"></i> +91 8588885246, 0124-4033552</p>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-footer">
+      <div class="container-fluid" style="background-color: #212121;">
+      <div class="container">
+            <div class="row" style="padding-top: 25px; padding-bottom: 25px;">
+              <div class="col-lg-4 col-md-4 ">
+                <h3 style="color: #fff;">ABOUT US</h3>
+                <br>
+                <p style=" color: #656363;">Limestem Global Services Private Limited having 20+ field service technicians throughout the India and ready to work across the globe.</p>
+                <p style=" color: #656363;">Limestem Global Services Private Limited is most experienced (13+) to providing support on ERP systems, independent medical equipment/devices and critical application support service to the world.</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <h3 style="color: #fff; padding-left: 15px;">OPTIONS</h3>
+                <br>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" >
+                  <ul class="footer-ul">
+                    <li><a class="footer-ul" href="index.html">HOME</a></li>
+                    <li><a class="footer-ul" href="#">THEMES</a></li>
+                    <li><a class="footer-ul" href="#">LOGIN</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                  <ul class="footer-ul">
+                    <li><a class="footer-ul" href="#">PLUGINS</a></li>
+                    <li><a class="footer-ul" href="feature.html">FEATURE</a></li>
+                    <!-- <li><a class="footer-ul" href="blogs.html">EVENTS</a></li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <h3 style="color: #fff; padding-left: 15px;">FOLLOW US</h3>
+                <br>
+                <ul class="social-network social-circle">
+                          <!-- <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li> -->
+                          <li><a target="_blank"  href="https://www.facebook.com/Limestem-Global-Services-Pvt-Ltd-450257478646736/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+
+                          <li><a target="_blank" href="https://twitter.com/limestem" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+
+                           <li><a  target="_blank" href="https://www.linkedin.com/cws/share?url=http%3A%2F%2Flimestem.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                              <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+                           <li><a target="_blank"  href="https://plus.google.com/106420326608954035892" data-rel="{publisher}"  class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li> 
+
+                            <!-- <li><a href="#" class="pinterest" title="Rss"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> -->
+
+                       </ul>
+                   
+              </div>
+
+              
+            </div>
+          </div>
+          </div>
+          <div class="copy-right">
+          <div class="wrap">
+              <center><p>Copyright 2017 by <a href="">Limestem Global Services Pvt. Ltd.</a> | All rights reserved</p></center>
+          </div>
+      </div>
+    </section>
+</body>
+</html>
