@@ -1,0 +1,453 @@
+/*----------------------lstemp0009-page-top-starts------------------------------*/
+#lstemp0009-page-top p{
+  font-family: 'Sansita', sans-serif;
+  letter-spacing: 1px;
+    font-size: 15px;
+    color: #777;
+}
+
+#lstemp0009-page-top h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+#lstemp0009-page-top hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-top-style: dashed;
+}
+/*slider animation*/
+#lstemp0009-page-top .animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#lstemp0009-page-top .animated-1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+#lstemp0009-page-top .slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#lstemp0009-page-top .fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#lstemp0009-page-top .fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+#lstemp0009-page-top .side-img {
+    display: inline-block;
+    height: 14px;
+    width: 75px;
+}
+#lstemp0009-page-top .side-img i {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #c59d5f -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    box-sizing: content-box;
+    display: inline-block;
+    float: left;
+    height: 1px;
+    margin: 0 0 1px;
+    width: 75px;
+    }
+
+#lstemp0009-page-top .heading-h2{
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: #000;
+}
+/*-----------------------------lstemp0009-page-top-ends-------------------------*/
+
+
+
+/*-------------------------lstemp0009-header-starts-----------------------*/
+@media(min-width:767px) {
+    #lstemp0009-header .navbar {
+        padding: 4px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    #lstemp0009-header .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px){
+    #lstemp0009-header .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+}
+#lstemp0009-header .navbar-default {
+    background-color: #000;
+    border-color: #000;
+}
+
+#lstemp0009-header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+}
+
+#lstemp0009-header .navbar-default .navbar-nav>li>a:focus, #lstemp0009-header .navbar-default .navbar-nav>li>a:hover {
+    color: #A78651;
+    background-color: transparent;
+}
+
+
+#lstemp0009-header .navbar-default .navbar-nav>.active>a, #lstemp0009-header .navbar-default .navbar-nav>.active>a:focus, #lstemp0009-header .navbar-default .navbar-nav>.active>a:hover {
+    color: #555 !important;
+    background-color: #e7e7e7;
+}
+/*-------------------------lstemp0009-header-ends-------------------------*/
+
+
+/*-------------------------lstemp0009-slider-starts---------------------------*/
+#lstemp0009-slider .carousel-control.left, #lstemp0009-slider .carousel-control.right {
+background-image:none !important;
+}
+#lstemp0009-slider .carousel-inner .item img {
+width:100%;
+height:100%;
+}
+#lstemp0009-slider .carousel-indicators {
+bottom:5px;
+left:10px;
+width:auto;
+padding:5px 25px 5px 25px;
+margin-left:0;
+background:rgba(0,0,0,0.7);
+}
+#lstemp0009-slider .carousel-indicators li {
+border-radius:0;
+width:8px;
+height:8px;
+background:#fff;
+}
+#lstemp0009-slider .carousel-indicators .active {
+width:10px;
+height:10px;
+background:#39b3d7;
+border-color:#39b3d7;
+}
+ 
+#lstemp0009-slider .carousel-control {
+background:    transparent;
+color:#fff;
+padding: 4px 0;
+width:26px;
+top:auto; 
+left:auto;
+bottom:12px;
+opacity:0.85;
+}
+#lstemp0009-slider .carousel-control :hover {
+    padding:4px;
+  background:rgba(0,0,0,0.35);
+}
+#lstemp0009-slider .carousel-control.right {
+right:10px;
+}
+ 
+#lstemp0009-slider .carousel-control.left {
+right: 46px;
+}
+#lstemp0009-slider .carousel-caption {
+top:auto;
+width:auto;
+right:auto;
+bottom:60px;
+left:673px;
+padding:20px;
+background:rgba(0,0,0,0.70);
+text-align:left;
+height:auto;
+max-width:50%;
+ 
+}
+
+#lstemp0009-slider .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-color: #000;
+}
+#lstemp0009-slider .p1{
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+}
+
+/*---------------------------lstemp0009-slider-ends----------------------*/
+
+
+/*--------------------------lstemo0009-manu-starts-----------------------*/
+#lstemo0009-manu .list-quotes {
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 4px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    /*border-bottom: 1px solid blue;*/
+}
+#lstemo0009-manu .list-quotes img,
+#lstemo0009-manu .list-quotes h1 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+#lstemo0009-manu .list-quotes img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#lstemo0009-manu .list-quotes:hover img {
+    -webkit-transform: translate3d(0,-80px,0);
+    transform: scale(1.2);
+    transition: all 250ms ease;
+}
+
+#lstemo0009-manu .list-quotes:hover h1 {
+    -webkit-transform: translate3d(0,-100px,0);
+    transform: translate3d(0,-100px,0);
+    text-shadow: 0px 0 15px #fff;
+    transition: all 250ms ease;
+}
+#lstemo0009-manu .list-quotes:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+#lstemo0009-manu .panel {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+/*-----------------------------lstemo0009-manu-ends----------------------*/
+/*---------------------------lstemp0009-dish-starts-----------------------*/
+#lstemp0009-dish marquee>a, #lstemp0009-dish marquee>a:hover{color:#000; text-decoration:none;}
+#lstemp0009-dish .productbox {
+    width:250px;
+    height:auto;
+    background-color:#ffffff;
+    padding:10px;
+    margin-bottom:10px;
+     padding: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #fff;
+        border: solid 1px #cbcbcb;
+        transition: all .20s ease-in-out;
+}
+#lstemp0009-dish .productbox img{
+    width:235px;
+    height:214px;
+    }
+#lstemp0009-dish .producttitle {
+    font-weight:bold;
+    padding:5px 0 5px 0; 
+   width: 235px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    
+}
+#lstemp0009-dish .producttitle a{
+   color:#000;
+   text-decoration:none;
+    }
+#lstemp0009-dish .producttitle .btn{
+    background-color:#EDEEF0;
+}
+/*------------------------lstemp0009-dish-ends----------------------------*/
+
+
+
+
+/*-----------------------------lstemp0009-team-starts-----------------------*/
+
+#lstemp0009-team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+#lstemp0009-team .container-1 {
+  padding: 0 16px;
+}
+
+#lstemp0009-team .container-1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#lstemp0009-team .title {
+  color: grey;
+  font-size: 16px;
+}
+#lstemp0009-team .team-h4{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 8px;
+}
+
+#lstemp0009-team .a-1 {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin: 0 9px;
+}
+#lstemp0009-team .a-1:hover {
+    color: #c59d5f;
+    text-decoration: underline;
+}
+/*-----------------------------lstemp0009-team-ends------------------------*/
+
+
+
+/*--------------------------------lstemp0009-contact-starts-------------------*/
+#lstemp0009-contact .heading-h3{
+    font-family: 'Courgette', cursive;
+    color: #b69157; 
+    font-size: 19px;
+}
+#lstemp0009-contact .btn-1{
+    color: #fff;
+    padding: 7px 23px 7px 23px;
+    font-size: 15px;
+    background-color: #b48f56;
+    border: 1px;
+}
+
+#lstemp0009-contact .btn-1:hover{
+      color: #b48f56;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+#lstemp0009-contact .copy-right {
+  padding: 15px 0px;
+  background: #fff;
+}
+#lstemp0009-contact .copy-right p {
+  color: #000;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+#lstemp0009-contact .copy-right p a {
+  color:#000;
+}
+#lstemp0009-contact .copy-right p a:hover{
+  text-decoration:underline;
+}
+/*--------------------------------lstemp0009-contact-ends----------------------*/
+
+
